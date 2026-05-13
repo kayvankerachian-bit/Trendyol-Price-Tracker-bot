@@ -10,7 +10,8 @@ CATEGORY_URL = "https://www.trendyol.com/sr?pr=4.5&rd=true&hsm=true&fc=true&qt=n
 
 TARGET_PRODUCT_ID = "757559672"
 
-TOKEN = "8646827527:AAFtIPqJiG78Hw2ragVaDSTEhd82SCgD5lg"
+import os
+TOKEN = os.getenv("BOT_TOKEN")
 CHAT_IDS = ["97362428","104973163"]
 
 
