@@ -39,7 +39,7 @@ def check_product():
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
     options.add_argument("--disable-blink-features=AutomationControlled")
-    options.binary_location = "/usr/bin/google-chrome"
+   #options.binary_location = "/usr/bin/google-chrome"
 
     driver = webdriver.Chrome(options=options)
     driver.get(CATEGORY_URL)
