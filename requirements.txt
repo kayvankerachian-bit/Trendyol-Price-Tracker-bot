@@ -1,6 +1,0 @@
-python-telegram-bot
-requests
-beautifulsoup4
-selenium==4.21.0
-webdriver-manager
-python-dotenv
