@@ -1,2 +1,0 @@
-[phases.setup]
-nixPkgs = ["google-chrome","chromedriver","glib","nss","nspr","atk","atk-bridge","cups","dbus","libdrm","xkbcommon","mesa"]
